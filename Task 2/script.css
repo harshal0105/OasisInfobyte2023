@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.header{
+    background-color: #171616;
+    height: 100vh;
+}
+
+.header .links{
+    width: 85%;
+    margin: auto;
+}
+
+.header nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav .logo{
+    font-family: sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.header nav .logo span{
+    color: aqua;
+}
+
+.header nav .content a{
+  color: white;
+  font-size: 18px;
+  margin: 35px;
+  text-transform: capitalize;
+}
+
+.header nav .content a:hover,
+.header nav .content a.active{
+    color: aqua;
+    text-shadow: 0 0 2px aqua;
+}
+
+.header .data{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .data .bio h4{
+    font-family: sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.header .data .bio h1{
+    font-family: sans-serif;
+    font-size: 60px;
+    margin: 25px 0 10px;
+}
+
+.header .data .bio span{
+    font-family: sans-serif;
+   color: aqua;
+   font-size: 25px;
+   font-weight: 750;
+   letter-spacing: .1em;
+}
+
+.header .data .bio .social{
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.header .data .bio .social a i{
+  width: 45px;
+  height: 45px;
+  background-color: #242424;
+  border: 2px solid aqua;
+  color: aqua;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.header .data .bio .social a i:hover{
+  
+    color: #242424;
+    background-color: aqua;
+    box-shadow: 0 0 10px aqua;
+}
+
+.header .data .cv{
+    padding: 10px 20px;
+    color: aqua;
+    border: 1px solid aqua;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.header .data .cv:hover{
+    color: #242424;
+    background-color: aqua;
+    box-shadow: 0 0 10px aqua;
+}
+
+.header .data .photo{
+    width: 50%;
+}
+.header .data .photo img{
+    width:100%;
+    position: relative;
+    border-radius: 80% 40% 40% 80%/ 60% 40% 60% 70%;
+}
+
+.c{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.about{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding-left: 60px;
+}
+
+
+.info{
+    height: 365px;
+    width: 365px;
+    padding: 20px,35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;   
+}
+
+.c .about .info:hover{
+    border: 2px solid aqua;
+    box-shadow: 0 0 20px aqua;
+   }
+   
+
+.c .info h2{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.c .info .card{
+    color: white;
+    font-weight: 10px;
+    margin: 45px;
+    letter-spacing: 0.1em;
+}
+
+.c .info i{
+   color: aqua;
+   margin-top: 25px;
+   font-size: 180%;
+   margin-bottom: 10px;
+}
+
+.a{
+   background-color: #000000;
+   width: 100%;
+   height: 150px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.a p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.a .but{
+ color: aqua;
+ font-size: 18px;
+ font-weight: bold;
+border: 2px solid aqua;
+padding: 10px 20px;
+border-radius: 25px;
+}
+
+.a .but:hover{
+    color: #101010;
+    box-shadow: 0 0 10px aqua;
+    background-color: aqua;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #060606;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.end{
+    position: absolute;
+    color: aqua;
+    font-size: 14px;
+    bottom: 35px;
+}
+
+footer .h{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 30%;
+}
+
+footer .med a{
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+footer .med a i{
+    width: 45px;
+    height: 45px;
+    background-color: #242424;
+    border: 2px solid aqua;
+    color: aqua;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+
+footer .med a i:hover{
+    color: #101010;
+    background-color: aqua;
+    box-shadow: 0 0 10px aqua;
+}

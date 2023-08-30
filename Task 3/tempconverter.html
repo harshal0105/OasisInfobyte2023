@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperature Coverter</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="script.css">
+    <script src="tc.js" defer></script>
+</head>
+
+<body>
+   
+    <div class="h">
+        <h1>Temperature Converter</h1>
+    </div>
+
+    <div class="container">
+        <div class="emoji">
+            <i class="fa-solid fa-cloud"></i>
+            <p id="par"></p>
+
+        </div>
+        <div class="boxcontainer">
+            <div class="box1">
+                <p>Celsius</p>
+                <input type="number" value = "0" class="takval" />
+            </div>
+            <div class="box1">
+                <p>Type</p>
+                <select name="" id="unit">   
+                     <option value="Fahrenheit">Fahrenheit</option>
+                     <option value="Celsius">Kelvin</option>  
+                </select>
+            </div>
+        </div>
+        <div class="valuecontainer">
+            <p>Result</p>
+            <div class="value"></div>
+        </div>
+        <button onclick="temperature()" class="buttn">Convert</button>
+    </div>
+
+
+
+</body>
+
+</html>
